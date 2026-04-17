@@ -1,5 +1,6 @@
 ﻿public class Program
 {
+    
     public static void Main()
     {
         Console.Write("1つ目の数字を入力してね");
