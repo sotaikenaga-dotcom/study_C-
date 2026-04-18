@@ -9,7 +9,8 @@ public class Program
         // 答え作成
         Console.Write("1~100から数を予想してね");
         var num = int.Parse(Console.ReadLine()!);
-        var count = 0
+        // 数予想
+        var count = 0;
         while(num_ans != num)
         {
             if(num_ans > num)
@@ -17,15 +18,18 @@ public class Program
                 Console.WriteLine("もっと大きいよ");
                 Console.Write("もう一回入力してみて");
                 num = int.Parse(Console.ReadLine()!);
+                count += 1;
             }
             else
             {
                 Console.WriteLine("もっと小さいよ");
                 Console.Write("もう一回入力してみて");
                 num = int.Parse(Console.ReadLine()!);
+                count += 1;
             }
         }
-        Console.WriteLine("正解！");
+        var score = 100 - count;
+        Console.WriteLine("正解！スコアは{0}点です！", score);
     }
     
 }
