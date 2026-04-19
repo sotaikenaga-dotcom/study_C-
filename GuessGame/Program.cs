@@ -28,8 +28,8 @@ public class Program
                 count += 1;
             }
         }
-        var score = 100 - count;
-        Console.WriteLine("正解！スコアは{0}点です！", score);
+        var score = 10 - count;
+        Console.WriteLine("正解！スコアは{0}/10点です！", score);
     }
     
 }
