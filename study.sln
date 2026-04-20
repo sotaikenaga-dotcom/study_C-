@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebAppli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessGame", "GuessGame\GuessGame.csproj", "{B47BC48F-18F8-451F-94AF-97E585DB25A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "研修", "研修\研修.csproj", "{6224C2E0-4488-4749-BC18-1E4CCCB8B50C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,18 @@ Global
 		{B47BC48F-18F8-451F-94AF-97E585DB25A2}.Release|x64.Build.0 = Release|Any CPU
 		{B47BC48F-18F8-451F-94AF-97E585DB25A2}.Release|x86.ActiveCfg = Release|Any CPU
 		{B47BC48F-18F8-451F-94AF-97E585DB25A2}.Release|x86.Build.0 = Release|Any CPU
+		{6224C2E0-4488-4749-BC18-1E4CCCB8B50C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6224C2E0-4488-4749-BC18-1E4CCCB8B50C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6224C2E0-4488-4749-BC18-1E4CCCB8B50C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6224C2E0-4488-4749-BC18-1E4CCCB8B50C}.Debug|x64.Build.0 = Debug|Any CPU
+		{6224C2E0-4488-4749-BC18-1E4CCCB8B50C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6224C2E0-4488-4749-BC18-1E4CCCB8B50C}.Debug|x86.Build.0 = Debug|Any CPU
+		{6224C2E0-4488-4749-BC18-1E4CCCB8B50C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6224C2E0-4488-4749-BC18-1E4CCCB8B50C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6224C2E0-4488-4749-BC18-1E4CCCB8B50C}.Release|x64.ActiveCfg = Release|Any CPU
+		{6224C2E0-4488-4749-BC18-1E4CCCB8B50C}.Release|x64.Build.0 = Release|Any CPU
+		{6224C2E0-4488-4749-BC18-1E4CCCB8B50C}.Release|x86.ActiveCfg = Release|Any CPU
+		{6224C2E0-4488-4749-BC18-1E4CCCB8B50C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
