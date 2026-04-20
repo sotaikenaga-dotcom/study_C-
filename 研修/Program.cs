@@ -1,16 +1,19 @@
 ﻿public class Program
 {
-    static void methodA()
+    static bool IsPositivenumber(int i)
     {
-       Console.WriteLine("methodAが呼び出されました");
-       methodB();
+        return i > 0;
     }
-    static void methodB()
+    static void Main()
     {
-        Console.WriteLine("methodBが呼び出されました");
-    }
-    public static void Main()
-    {
-        methodA();
+       int i = -10;
+       if(IsPositivenumber(i))
+        {
+            Console.WriteLine("iの値は正です");
+        }
+        else
+        {
+            Console.WriteLine("iの値は0または負です");
+        }
     }
 }

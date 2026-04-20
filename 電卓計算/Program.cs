@@ -32,47 +32,38 @@ public class Program
             double input = double.Parse(Console.ReadLine()!);
             stglist.Add(input.ToString());
 
-
             //÷0のエラー
             if (Operator == "÷" && input == 0)
             {
                 Console.WriteLine("error");
                 break;
             }
-
-
-        
-            if(Operator == "+")
-            {
-                total += input; 
-            }
-            else if(Operator == "-")
-            {
-                total -= input;
-            }
-            else if(Operator == "×")
-            {
-                total *= input;
-            }
-            else if(Operator == "÷")
-            {
-                total /= input;
-            }
-            else if(Operator == "=")
+            if(Operator == "=")
             {
                 break;
-            }   
+            }  
+            switch(Operator)
+            {
+                case "+":
+                total += input;
+                break; 
+                case "-":
+                total -= input;
+                break;
+                case "×":
+                total *= input;
+                break;
+                case "÷":
+                total /= input;
+                break;
+            }            
         }
-
-        /*while終了後、liststgを一つずつ取り出してresultとする
-        その際半角スペースも入れる
-        結果は3 + 3 + 9 +... = totalのように出力*/
         string result = "";
         for(var i = 0; i < stglist.Count; i++)
         {
             result += stglist[i] + " ";
         }
-        Console.WriteLine("{0}{1}",result, total);
+        Console.WriteLine(result + total);
     }
 }
 
