@@ -1,16 +1,16 @@
 ﻿public class Program
 {
-    static void Countdown()
+    static void methodA()
     {
-        Console.WriteLine("カウントダウンします");
-        for(int i = 5; i >= 0; i--)
-        {
-            Console.WriteLine(i);
-        } 
+       Console.WriteLine("methodAが呼び出されました");
+       methodB();
+    }
+    static void methodB()
+    {
+        Console.WriteLine("methodBが呼び出されました");
     }
     public static void Main()
     {
-        Countdown();
-        Countdown();
+        methodA();
     }
 }
