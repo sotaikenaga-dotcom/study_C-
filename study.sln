@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "研修", "研修\研修.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "times_table", "times_table\times_table.csproj", "{0EC07376-9A64-4665-82AE-A9E18251AEEA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo", "ToDo\ToDo.csproj", "{1A1A7FB7-813F-45FA-9A8C-11A27C5D635C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +99,18 @@ Global
 		{0EC07376-9A64-4665-82AE-A9E18251AEEA}.Release|x64.Build.0 = Release|Any CPU
 		{0EC07376-9A64-4665-82AE-A9E18251AEEA}.Release|x86.ActiveCfg = Release|Any CPU
 		{0EC07376-9A64-4665-82AE-A9E18251AEEA}.Release|x86.Build.0 = Release|Any CPU
+		{1A1A7FB7-813F-45FA-9A8C-11A27C5D635C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A1A7FB7-813F-45FA-9A8C-11A27C5D635C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A1A7FB7-813F-45FA-9A8C-11A27C5D635C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1A1A7FB7-813F-45FA-9A8C-11A27C5D635C}.Debug|x64.Build.0 = Debug|Any CPU
+		{1A1A7FB7-813F-45FA-9A8C-11A27C5D635C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1A1A7FB7-813F-45FA-9A8C-11A27C5D635C}.Debug|x86.Build.0 = Debug|Any CPU
+		{1A1A7FB7-813F-45FA-9A8C-11A27C5D635C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A1A7FB7-813F-45FA-9A8C-11A27C5D635C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A1A7FB7-813F-45FA-9A8C-11A27C5D635C}.Release|x64.ActiveCfg = Release|Any CPU
+		{1A1A7FB7-813F-45FA-9A8C-11A27C5D635C}.Release|x64.Build.0 = Release|Any CPU
+		{1A1A7FB7-813F-45FA-9A8C-11A27C5D635C}.Release|x86.ActiveCfg = Release|Any CPU
+		{1A1A7FB7-813F-45FA-9A8C-11A27C5D635C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
