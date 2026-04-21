@@ -13,8 +13,7 @@ public class Program
         //リストの宣言
         List<string> stglist = new List<string>();
         stglist.Add(firstinput.ToString());
-
-       
+        
         string Operator = "";
 
         while(Operator != "=")
