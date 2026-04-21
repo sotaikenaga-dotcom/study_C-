@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessGame", "GuessGame\Gues
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "研修", "研修\研修.csproj", "{6224C2E0-4488-4749-BC18-1E4CCCB8B50C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "times_table", "times_table\times_table.csproj", "{0EC07376-9A64-4665-82AE-A9E18251AEEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,18 @@ Global
 		{6224C2E0-4488-4749-BC18-1E4CCCB8B50C}.Release|x64.Build.0 = Release|Any CPU
 		{6224C2E0-4488-4749-BC18-1E4CCCB8B50C}.Release|x86.ActiveCfg = Release|Any CPU
 		{6224C2E0-4488-4749-BC18-1E4CCCB8B50C}.Release|x86.Build.0 = Release|Any CPU
+		{0EC07376-9A64-4665-82AE-A9E18251AEEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EC07376-9A64-4665-82AE-A9E18251AEEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EC07376-9A64-4665-82AE-A9E18251AEEA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0EC07376-9A64-4665-82AE-A9E18251AEEA}.Debug|x64.Build.0 = Debug|Any CPU
+		{0EC07376-9A64-4665-82AE-A9E18251AEEA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0EC07376-9A64-4665-82AE-A9E18251AEEA}.Debug|x86.Build.0 = Debug|Any CPU
+		{0EC07376-9A64-4665-82AE-A9E18251AEEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EC07376-9A64-4665-82AE-A9E18251AEEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EC07376-9A64-4665-82AE-A9E18251AEEA}.Release|x64.ActiveCfg = Release|Any CPU
+		{0EC07376-9A64-4665-82AE-A9E18251AEEA}.Release|x64.Build.0 = Release|Any CPU
+		{0EC07376-9A64-4665-82AE-A9E18251AEEA}.Release|x86.ActiveCfg = Release|Any CPU
+		{0EC07376-9A64-4665-82AE-A9E18251AEEA}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
